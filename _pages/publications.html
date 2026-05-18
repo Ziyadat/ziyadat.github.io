@@ -1,36 +1,43 @@
 ---
 layout: archive
-title: "Publications"
+title: "Research"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+## Working Papers
 
-{% include base_path %}
+**Health Shocks, Labor Supply, and Spousal Spillovers: Evidence on Job Transitions**  
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+This paper examines the impact of unexpected health shocks, specifically 
+cancer, stroke, or heart attack, on labor supply adjustments among older 
+workers, as well as spousal spillover effects. Using longitudinal data from 
+the Health and Retirement Study (HRS) from 1992 to 2018 and exploiting 
+variation in the timing of health shocks, the study implements a stacked 
+difference-in differences framework combined with an event-study design. 
+The results show that individuals experiencing health shocks are 7.9 
+percentage points less likely to work, 6.8 percentage points more likely 
+to retire, and work 1.5 fewer hours per week. However, there is no 
+evidence of adjustments along other margins, including occupational 
+mobility, changes in job physical demands, or transitions from full-time 
+to part-time work. In contrast, spousal responses are more limited along 
+extensive margins but show meaningful adjustment in job transitions. While 
+the paper finds only a 2.6-percentage point decline in the probability of 
+working among spouses, it finds that spouses are 3.9 percentage points 
+more likely to transition to less physically demanding jobs, which likely 
+reflect caregiving responsibilities. It finds no evidence of spousal 
+adjustments through occupational mobility or transitions from full-time to 
+part-time work. The results underscore the importance of household-level 
+responses to health shocks and have implications for labor supply, 
+caregiving, and social insurance policy.
 
+*Keywords: health shocks, labor supply, spousal spillover*  
+*JEL Classification: I12, J22, J14, J12*
 
+---
+
+## Work in Progress
+
+**The Impacts of Paid Sick Leave on Children's Developmental and 
+Behavioral Health Outcomes**
 
