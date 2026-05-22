@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Ziyadat T. Ekundayo"
+title                    : "Ziyadat Ekundayo"
 title_separator          : "-"
 name                     : &name "Ziyadat Ekundayo"
-description              : &description "Ph.D Student in Economics, Wayne State University"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Ph.D Student in Economics, Wayne State University"   
 url                      :  https://ziyadat.github.io
                                                            
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -29,8 +29,8 @@ author:
   bio              : "Ph.D Student in Economics at Wayne State University."
   location         : "Detroit, MI"
   employer         : "Wayne State University."
-  uri              :  https://ziyadat.github.io
-  email            : "hp9225@wayne.edu" 
+  uri              : 
+  email            : 
 
   # Academic websites
   academia         : 
