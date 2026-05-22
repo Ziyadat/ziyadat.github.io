@@ -23,7 +23,7 @@ repository               : "Ziyadat/ziyadat.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "PICTURE.jpg"
+  avatar           : "images/PICTURE.jpg"
   name             : "Ziyadat T. Ekundayo"
   pronouns         : # example: "She/Her/Hers"  
   bio              : "Ph.D Student in Economics at Wayne State University."
