@@ -11,7 +11,7 @@ locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Ziyadat T. Ekundayo"
 title_separator          : "-"
-name                     : &name "Ziyadat T. Ekundayo"
+name                     : &name "Ziyadat Ekundayo"
 description              : &description "Ph.D Student in Economics, Wayne State University"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      :  https://ziyadat.github.io
                                                            
@@ -24,8 +24,8 @@ repository               : "Ziyadat/ziyadat.github.io"
 author:
   # Biographic information
   avatar           : "images/PICTURE.jpg"
-  name             : "Ziyadat T. Ekundayo"
-  pronouns         : # example: "She/Her/Hers"  
+  name             : "Ziyadat Ekundayo"
+  pronouns         :  "She/Her/Hers"  
   bio              : "Ph.D Student in Economics at Wayne State University."
   location         : "Detroit, MI"
   employer         : "Wayne State University."
@@ -66,7 +66,7 @@ author:
   keybase          : 
   instagram        : 
   lastfm           : 
-  linkedin         : 
+  linkedin         : "ziyadat-ekundayo"
   mastodon         : 
   medium           : 
   pinterest        : 
