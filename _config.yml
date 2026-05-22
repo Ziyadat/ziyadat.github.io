@@ -13,7 +13,7 @@ title                    : "Ziyadat Ekundayo"
 title_separator          : "-"
 name                     : &name "Ziyadat Ekundayo" 
 description              : &description "Ph.D Student in Economics, Wayne State University"   
-url                      :  https://ziyadat.github.io
+url                      :  https://ziyadatekundayo.github.io
                                                            
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Ziyadat/ziyadat.github.io"
